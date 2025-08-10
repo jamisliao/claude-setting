@@ -1,0 +1,19 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "/Users/wenleliao/.claude/statusline-ccusage-optimized.sh"
+  },
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "terminal-notifier -message \"這是一個測試通知\" -title \"通知測試\" -subtitle \"請檢查右上角\" -sound default"
+          }
+        ]
+      }
+    ]
+  }
+}
